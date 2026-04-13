@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Michelle Fernandes | Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f7, #ffffff);
+}
+
+.navbar{
+    background: #1f2d3d !important;
+}
+
+h1, h2{
+    color:#1f2d3d;
+}
+
+.section{
+    padding:50px 0;
+}
+
+.card-style{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:4px solid #1f2d3d;
+}
+
+.btn-primary{
+    background:#1f2d3d;
+    border:none;
+}
+
+.cert-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Projects */
+.project-card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.project-card:hover{
+    transform: translateY(-10px) scale(1.02);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.project-img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Michelle Fernandes</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<section id="home" class="section text-center">
+    <img src="Profile_pic.jpeg" class="profile-img"><br><br>
+    <h1>Michelle Fernandes</h1>
+    <p>Graphic Designer</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section">
+    <div class="container card-style text-center">
+        <h2>Skills</h2>
+        <p>
+            <i class="bi bi-palette"></i> Graphic Design |
+            <i class="bi bi-brush"></i> Canva |
+            <i class="bi bi-image"></i> Photoshop |
+            <i class="bi bi-rulers"></i> AutoCAD |
+            <i class="bi bi-lightbulb"></i> UI/UX
+        </p>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card-style project-card text-center">
+                    <img src="marks.png" class="project-img">
+                    <h5 class="mt-3">Marksheet System</h5>
+                    <p>HTML, CSS, JavaScript based marks calculator</p>
+                    <button class="btn btn-primary">View Project</button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-style project-card text-center">
+                    <img src="bill.png" class="project-img">
+                    <h5 class="mt-3">Bill Generator</h5>
+                    <p>Array-based billing system with discount logic</p>
+                    <button class="btn btn-primary">View Project</button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-style project-card text-center">
+                    <img src="quiz.png" class="project-img">
+                    <h5 class="mt-3">Quiz Game</h5>
+                    <p>Interactive quiz with timer and random questions</p>
+                    <button class="btn btn-primary">View Project</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="section">
+    <div class="container card-style">
+        <h2>Experience</h2>
+        <p><b>Associate - Celebal Technologies (2024–2025)</b></p>
+        <ul>
+            <li>Managed Udemy Business platform</li>
+            <li>Supported Databricks Academy content</li>
+            <li>Created presentations and reports</li>
+            <li>Designed training graphics</li>
+            <li>Worked with cross-functional teams</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Certificates -->
+<section id="certificates" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">Certificates</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card-style text-center">
+                    <img src="HTML.png" class="cert-img">
+                    <p class="mt-2">HTML Training Certificate</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-style text-center">
+                    <img src="ICT.png" class="cert-img">
+                    <p class="mt-2">Introduction to Computers</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-style text-center">
+                    <img src="imovie_certi.jpeg" class="cert-img">
+                    <p class="mt-2">iMovie Certificate</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card-style text-center">
+                    <img src="jira course.jpeg" class="cert-img">
+                    <p class="mt-2">Jira Course Certificate</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="text-center">Contact</h2>
+
+        <ul class="nav nav-tabs justify-content-center">
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#info">Info</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#form">Form</button>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-3 card-style">
+            <div class="tab-pane fade show active" id="info">
+                <p><i class="bi bi-telephone"></i> +91 9414195440</p>
+                <p><i class="bi bi-envelope"></i> michelleferns1036@gmail.com</p>
+                <p><i class="bi bi-geo-alt"></i> Jaipur, Rajasthan</p>
+            </div>
+
+            <div class="tab-pane fade" id="form">
+                <input class="form-control mb-2" placeholder="Name">
+                <input class="form-control mb-2" placeholder="Email">
+                <textarea class="form-control mb-2" placeholder="Message"></textarea>
+                <button class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center p-3" style="background:#1f2d3d;">
+    <p>© 2026 Michelle Fernandes</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
